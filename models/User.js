@@ -9,4 +9,4 @@ userSchema.index(
   { name: 1, role: 1, pollId: 1 },
   { unique: true, sparse: true }
 );
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('user', userSchema);
